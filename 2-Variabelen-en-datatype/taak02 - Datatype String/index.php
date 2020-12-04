@@ -3,10 +3,8 @@
 <body>
 
 <?php
-$test = true;
-echo $test;
-$test = null;
-echo $test; 
+$naam = "Pascal";
+echo $naam;
 ?>
 
 </body>
