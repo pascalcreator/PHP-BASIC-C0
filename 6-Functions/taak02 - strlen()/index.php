@@ -1,7 +1,12 @@
 <?php
-$str = 'abcdef';
-echo strlen($str); 
+$voornaam= "Pascal";
+$achternaam= "Konijnenburg";
+$gehelenaam= "$voornaam $achternaam";
+$helezin= "mijn naam is $gehelenaam";
 
-$str = ' ab cd ';
-echo strlen($str); 
+function mijnnaamisgroot() {
+    echo '$gehelenaam';
+}
+$helezin=strtoupper($helezin);
+echo $helezin;
 ?>

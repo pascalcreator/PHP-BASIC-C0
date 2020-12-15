@@ -18,7 +18,7 @@
 /* 
  * Opdracht 2: Zet hier de $buttons array neer 
  */
-$buttons = array (19.99,250,1500)
+$buttons = array (19.99,250,1500);
 
 /******************************************* OPDRACHT 2 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
@@ -43,7 +43,7 @@ function calculateBitcoinAmount()
     //SCHRIJF JE CODE.
     $prijsbitcoin =getBitcoinPrice();
     $bitcoinhoeveelheid = $euro / $prijsbitcoin;
-    return $bitcoihoeveelheid
+    return $bitcoinhoeveelheid;
 
 
 }
